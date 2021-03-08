@@ -1,0 +1,33 @@
+.attendancePage {
+  /* display: flex; */
+  flex: 0.85;
+  background-color: #f9f9f9;
+  /* background-color: red; */
+  padding: 40px 20px;
+  padding-bottom: 0;
+  /* margin: 20px; */
+}
+.attendancePage > h1{
+  margin-left: 20px;
+  color: lightgray;
+  text-shadow: 0 3px 3px rgba(0,0,0,0.08);
+}
+
+.attendancePage__selections
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin-left: 5px;
+  width: 50%;
+}
+.attendancePage__selections.attendancePage__dropdown{
+  /* width: 100%; */
+}
+
+
+.attendancePage__studentList{
+  margin-left: 20px;
+}
+

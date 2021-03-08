@@ -1,0 +1,23 @@
+.eventRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.eventRow__events {
+  display: flex;
+  justify-content: space-between;
+}
+
+.eventRow__arrow {
+  display: flex;
+  margin-right: 10px;
+  box-sizing: content-box;
+  padding: 10px;
+  border-radius: 1000px;
+  border: 1px solid lightgray;
+  /* box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.08); */
+}
+.eventRow__arrow:hover {
+  background-color: lightgray;
+}

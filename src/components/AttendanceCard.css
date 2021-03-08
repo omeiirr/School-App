@@ -1,0 +1,55 @@
+.attendanceCard {
+  width: 60%;
+  margin: 20px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  padding-bottom: 10px;
+  border-radius: 30px;
+}
+
+.attendanceCard__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.attendanceCard__headerTitle {
+  color: rgb(92, 92, 92);
+}
+.attendanceCard__headerTitle > h4 {
+  color: gray;
+}
+.attendanceCard__headerLogo {
+  color: #045de9 !important;
+  font-size: 30px !important;
+}
+.attendanceCard__expand:visited{
+  text-decoration: none;
+}
+.attendanceCard__details {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: space-evenly;
+  color: rgb(92, 92, 92);
+}
+.attendanceCard__details--present > h4{
+    color: green;
+}
+.attendanceCard__details--absent > h4{
+    color: red;
+}
+.attendanceCard__chart {
+  /* background-color: red; */
+  /* height: 100%; */
+  margin-top: 20px;
+  /* width: 100%; */
+  /* margin: 20px 20px 20px auto; */
+}
+
+.attendanceCard__expand {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 5px 0;
+}

@@ -1,18 +1,30 @@
 {
+  "homepage": "https://omeiirr.github.io/School-App/",
   "name": "school-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/pickers": "^3.2.10",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.1",
+    "chart.js": "^2.9.4",
+    "gh-pages": "^3.1.0",
     "react": "^17.0.1",
+    "react-calendar": "^3.3.1",
+    "react-chartjs-2": "^2.11.1",
     "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "react-select": "^4.2.1",
     "web-vitals": "^1.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

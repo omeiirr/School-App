@@ -1,0 +1,22 @@
+.attendancePageStudentRow{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.attendancePageStudentRow>h4{
+    font-size: 14px;
+    background-color: #09C6F9;
+    padding: 7px;
+    border-radius: 30px;
+    color: white;
+}
+.attendancePageStudentRow>h3{
+    font-size: 16px;
+    background-color: #D3E0EA ;
+    padding: 5px 8px 5px 8px;
+    border-radius: 30px;
+    margin-right: 10px;
+    color: rgb(99, 96, 96);
+}

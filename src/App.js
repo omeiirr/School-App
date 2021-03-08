@@ -1,23 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+
+import Sidebar from "./components/Sidebar";
+import Homepage from "./components/Homepage";
+import AttendancePage from "./components/AttendancePage";
+
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
+
+  const user="Omeir Fawaz";
+  const userType="Admin";
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Switch>
+          <Route path="/search/:searchTerm">
+            <h1>SearchPage</h1>
+          </Route>
+
+          <Route path="/attendance" exact>
+            <div className="app__page">
+
+            <Sidebar user={user} userType={userType} />
+            <AttendancePage user={user} />
+            </div>
+          </Route>
+
+          <Route path="/" exact>
+            <div className="app__page">
+              <Sidebar user={user} userType={userType} />
+              <Homepage user={user}/>
+            </div>
+          </Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
