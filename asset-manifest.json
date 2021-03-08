@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/School-App/static/css/main.6447a583.chunk.css",
-    "main.js": "/School-App/static/js/main.06b32853.chunk.js",
-    "main.js.map": "/School-App/static/js/main.06b32853.chunk.js.map",
+    "main.js": "/School-App/static/js/main.29392e29.chunk.js",
+    "main.js.map": "/School-App/static/js/main.29392e29.chunk.js.map",
     "runtime-main.js": "/School-App/static/js/runtime-main.2833b13a.js",
     "runtime-main.js.map": "/School-App/static/js/runtime-main.2833b13a.js.map",
     "static/css/2.835acb34.chunk.css": "/School-App/static/css/2.835acb34.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.835acb34.chunk.css",
     "static/js/2.1fd58c14.chunk.js",
     "static/css/main.6447a583.chunk.css",
-    "static/js/main.06b32853.chunk.js"
+    "static/js/main.29392e29.chunk.js"
   ]
 }
