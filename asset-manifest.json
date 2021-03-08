@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/School-App/static/css/main.6447a583.chunk.css",
+    "main.js": "/School-App/static/js/main.06b32853.chunk.js",
+    "main.js.map": "/School-App/static/js/main.06b32853.chunk.js.map",
+    "runtime-main.js": "/School-App/static/js/runtime-main.2833b13a.js",
+    "runtime-main.js.map": "/School-App/static/js/runtime-main.2833b13a.js.map",
+    "static/css/2.835acb34.chunk.css": "/School-App/static/css/2.835acb34.chunk.css",
+    "static/js/2.1fd58c14.chunk.js": "/School-App/static/js/2.1fd58c14.chunk.js",
+    "static/js/2.1fd58c14.chunk.js.map": "/School-App/static/js/2.1fd58c14.chunk.js.map",
+    "index.html": "/School-App/index.html",
+    "static/css/2.835acb34.chunk.css.map": "/School-App/static/css/2.835acb34.chunk.css.map",
+    "static/css/main.6447a583.chunk.css.map": "/School-App/static/css/main.6447a583.chunk.css.map",
+    "static/js/2.1fd58c14.chunk.js.LICENSE.txt": "/School-App/static/js/2.1fd58c14.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/School-App/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2833b13a.js",
+    "static/css/2.835acb34.chunk.css",
+    "static/js/2.1fd58c14.chunk.js",
+    "static/css/main.6447a583.chunk.css",
+    "static/js/main.06b32853.chunk.js"
+  ]
+}
