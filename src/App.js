@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="App">
-      <Router basename = "/School-App">
+      <Router basename="School-App">
         <Switch>
           <Route path="/search/:searchTerm">
             <h1>SearchPage</h1>
