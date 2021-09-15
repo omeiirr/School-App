@@ -55,12 +55,12 @@ function AttendancePage({user}) {
       </div>
 
       <div className="attendancePage__studentList">
-        <AttendancePageStudentRow period="01" student="Aman Bhardwaj" />
-        <AttendancePageStudentRow period="02" student="Aman Bhardwaj" />
-        <AttendancePageStudentRow period="03" student="Aman Bhardwaj" />
-        <AttendancePageStudentRow period="04" student="Aman Bhardwaj" />
-        <AttendancePageStudentRow period="05" student="Aman Bhardwaj" />
-        <AttendancePageStudentRow period="06" student="Aman Bhardwaj" />
+        <AttendancePageStudentRow period="01" student="Arun Kumar" />
+        <AttendancePageStudentRow period="02" student="Arun Kumar" />
+        <AttendancePageStudentRow period="03" student="Arun Kumar" />
+        <AttendancePageStudentRow period="04" student="Arun Kumar" />
+        <AttendancePageStudentRow period="05" student="Arun Kumar" />
+        <AttendancePageStudentRow period="06" student="Arun Kumar" />
       </div>
     </div>
   );

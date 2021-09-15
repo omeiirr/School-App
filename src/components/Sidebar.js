@@ -62,7 +62,7 @@ function Sidebar({ user, userType }) {
 
       <div className="sidebar__account">
         <Avatar
-          src="https://static.vecteezy.com/system/resources/previews/000/424/070/original/female-avatar-icon-vector-illustration.jpg"
+          src="https://st2.depositphotos.com/2703645/7676/v/950/depositphotos_76762205-stock-illustration-male-avatar-icon.jpg"
           alt={user}
         ></Avatar>
         <div className="sidebar__accountName">
